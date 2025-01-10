@@ -68,12 +68,12 @@ public class Fraction
         den /= x;
     }
     
-    private void setNum(int n){
+    public void setNum(int n){
         num = n;
     }
     
-    private void setDenom(int d){
-        num = d;
+    public void setDenom(int d){
+        den = d;
     }
     
     static Fraction multiply(Fraction one, Fraction two){
